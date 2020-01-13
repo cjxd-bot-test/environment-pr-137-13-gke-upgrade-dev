@@ -80,8 +80,10 @@ storage:
     url: ""
 vault:
   disableURLDiscovery: true
-velero: {}
+velero:
+  schedule: ""
+  ttl: ""
 versionStream:
-  ref: v0.0.24
+  ref: aed3a98e3fc20b1a568e693938a930c4d963ba4c
   url: https://github.com/cloudbees/cloudbees-jenkins-x-versions.git
 webhook: prow
